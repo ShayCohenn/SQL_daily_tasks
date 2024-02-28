@@ -55,3 +55,27 @@
 ### 7. Sum the payments and group them in the following formats: day: Fri, 24/01/2020 | May, 2020 | Thu, 02:44
 ### 8. Create a list of all rental durations of customer with id 35. Also find which customer has the longest average rental duration
 </details>
+
+<details>
+<summary>
+
+## Day 5:
+</summary>
+
+### 1. Create a list of films with the relation of rental rate / replacement cost where the rental rate is less than 4% of the replacement cost. Create a list of those film_ids together with the percentage rounded to 2 decimal places
+### 2. How many tickets were sold in the following categories:
+• Low price ticket: amount < 20,000 <br>
+• Mid price ticket: amount between 20,000 and 150,000 <br>
+• High price ticket: amount >= 150,000
+### 3. How many flights departed in the following seasons:
+• Winter: December, January, February <br>
+• Spring: March, April, May <br>
+• Summer: June, July, August <br>
+• Fall: September, October, November
+### 4. Create a tier list for the films the following ways:
+• 1. Rating is 'PG' or 'PG-13' or the length is more than 210 min: 'Great rating or long (tier 1)'<br>
+• 2. Description contains 'Drama' and length is more than 90 min: 'Long drama (tier 2)'<br>
+• 3. Description contains 'Drama' and length is not more than 90 min: 'Short drama (tier 3)'<br>
+• 4. Rental_rate less than 1$: 'Very cheap (tier 4)'
+### 5. Count how many movies are in each rating
+</details>
