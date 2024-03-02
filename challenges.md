@@ -79,3 +79,25 @@
 • 4. Rental_rate less than 1$: 'Very cheap (tier 4)'
 ### 5. Count how many movies are in each rating
 </details>
+
+<details>
+<summary>
+
+## Day 6:
+</summary>
+
+### 1.How many people chose seats in each category:
+• Business <br>
+• Economy <br>
+• Comfort
+### 2.Find how many tickets are there that have no boarding pass:
+### 3.Find all the aircrafts that have not been used in any flight:
+### 4.Find out which seat has been chosen most frequently. Make sure all seats are included:
+### 5.FInd which line (A, B, C...) has been chosen the most
+### 6.What are the customers(first name, last name, phone number and their district) from Texas?
+### 7.Are there any old addresses that are not related to any customer?
+### 8.Get the first name, last name, and email from all the customers from Brazil.
+### 9.Which passenger (passenger_name) has spent most amount in their bookings (total_amount)?
+### 10.Which fare_condition has ALEKSANDR IVANOV used the most?
+### 11.Which title has GEORGE LINTON rented the most often?
+</details>
