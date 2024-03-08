@@ -101,3 +101,23 @@
 ### 10.Which fare_condition has ALEKSANDR IVANOV used the most?
 ### 11.Which title has GEORGE LINTON rented the most often?
 </details>
+
+<details>
+<summary>
+
+## Day 2
+</summary>
+
+### 1.Select all the films that their length is longer than the average length of the films
+### 2.Return all the films that are available in the inventory of store 2 more than 3 times
+### 3.Return all the customers first and last names that have made a payment on 2020-01-25
+### 4.Return all the customers first name and email that have spent more than 30$.
+### 5.Return all the customers first and last names that are from California and spent more than 100$ in total
+### 6.What is the average total amount spent per day
+### 7.Show all the payments together with how much the payment amount is below the maximum payment amount
+### 8.Show all the movies that their replacement cost is the lowest in its rating.
+### 9.Show all the movies that their runtime is highest in their rating.
+### 10.Show all the payments of each customer and the total amount spent and the number of payments the customer has made
+### 11.Show all the films with the highest replacement cost for each of their category and the average replacement cost for that category.
+### 12.Show the payments with the highest amount for each customer including the customer's first_name and payment_id of that payment
+</details>
