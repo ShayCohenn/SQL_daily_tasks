@@ -320,3 +320,44 @@ Question: What is the total revenue of the category 'Action' and what is the low
 Answer: Total revenue in the category 'Action' is 4375.85 and the lowest payment_id in that category is 16055.
 
 </details>
+
+<details>
+<summary>
+
+## Day 9
+</summary>
+
+### 1.
+Create a table called online_sales with the following columns:
+
+transaction_id
+
+customer_id
+
+film_id
+
+amount
+
+promotion_code
+
+Transaction_id shoul be the primary key.
+The columns customer_id and film_id should be foreign keys to the relevant tables.
+The amount column can contain values from 0.00 to 999.99 - nulls should not be allowed.
+The column promotion_code contains a promotion code of at maximum 10 characters. If there is no value you should set the default value 'None'.
+
+Create that table and choose appropriate data types and constraints!
+
+### 2. Add data to the table
+### 3. Alter the director table:
+• director_account_name to VARCHAR(30)<br>
+• drop the default on last_name <br>
+• add the constraint not null to last name <br>
+• add the column email of datatype VARCHAR(40) <br>
+• rename the director_account_name to account_name <br>
+• rename the table from director to directors
+### 4. Create a table called songs with the folllowing columns: song_id, song_name, genre, price, release_date
+• During creation add the DEFAULT 'Not defined' to the genre <br>
+• Add the not null constraint to the song_name <br>
+• Add the constraint with the default name to ensure the price is at least 0.99 <br>
+• Add the constraint date_check to ensure the release date is between today and 01-01-1950 <br>
+</details>
