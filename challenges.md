@@ -361,3 +361,43 @@ Create that table and choose appropriate data types and constraints!
 • Add the constraint with the default name to ensure the price is at least 0.99 <br>
 • Add the constraint date_check to ensure the release date is between today and 01-01-1950 <br>
 </details>
+
+<details>
+<summary>
+
+## Day 10
+</summary>
+
+### 1. Increase all the rental prices from 0.99 to 1.99
+### 2. Add to the customer table Initials column e.g. Frank Brown - F.B.
+### 3. Delete rows in payment table with payment_id 17064 and 17067
+### 4. Create a new table that contains the full name of the customer and their total spending amount.
+### 5. Create a view called films_category that shows a list of the film titles including their title, length and category name ordered descendingly by the length.
+### 6. Challenge: Managing views
+In this challenge, we use again the view v_customer_info that we have previously created:
+
+```SQL
+CREATE VIEW v_customer_info
+AS
+SELECT cu.customer_id,
+    cu.first_name || ' ' || cu.last_name AS name,
+    a.address,
+    a.postal_code,
+    a.phone,
+    city.city,
+    country.country
+     FROM customer cu
+     JOIN address a ON cu.address_id = a.address_id
+     JOIN city ON a.city_id = city.city_id
+     JOIN country ON city.country_id = country.country_id
+ORDER BY customer_id
+```
+You need to perform the following tasks:
+
+1) Rename the view to v_customer_information.
+
+2) Rename the customer_id column to c_id.
+
+3) Add also the initial column as the last column to the view by replacing the view.
+
+</details>
