@@ -401,3 +401,17 @@ You need to perform the following tasks:
 3) Add also the initial column as the last column to the view by replacing the view.
 
 </details>
+
+<details>
+<summary>
+
+## Day 11
+</summary>
+
+### 1. Write a quey that returns a list of movies including(film_id, title, length, category and average length of films in said category)
+### 2. Write a query that returns all the payment details and including the number of payments that were made by each customer and the amount
+### 3. • Write a query that returns the running total of how late the flights are (difference between actual_arrival and scheduled_arrival) ordered by flight_id including the departure airport.
+### • As a second query calculate the same running total but partition also by departure airport.
+### 4. Write a query that returns the customer's name, the country and how many payments the have. For that use the view customer_list. Afterwards create a ranking of the top customers with the most sales for each country. Filer the result to display the top 3 customers from each country
+### 5. Write a query that returns the revenue of the day and the revenue of the previous day and calculate the percentage growth compared to the previous day.
+</details>
