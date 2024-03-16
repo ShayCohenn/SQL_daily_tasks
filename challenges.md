@@ -415,3 +415,16 @@ You need to perform the following tasks:
 ### 4. Write a query that returns the customer's name, the country and how many payments the have. For that use the view customer_list. Afterwards create a ranking of the top customers with the most sales for each country. Filer the result to display the top 3 customers from each country
 ### 5. Write a query that returns the revenue of the day and the revenue of the previous day and calculate the percentage growth compared to the previous day.
 </details>
+
+<details>
+<summary>
+
+## Day 12
+</summary>
+
+### 1. Write a query that returns the sum of the amount for each customer (first_name and last_name) and each staff_id. Also add the overall revenue per customer.
+### 2. Wrtie a query that calculates a booking amount per quater, month, week in month and day.
+### 3. Write a query that returns all grouping sets in all combinations of customer_id, date and title with the aggregation of the payment amount.
+### 4. Find all the pairs of films with the same length.
+
+</details>
