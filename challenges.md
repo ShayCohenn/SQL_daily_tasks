@@ -886,3 +886,15 @@ Answer:
 emp_id 8
 
 </details>
+
+<details>
+<summary>
+
+## Day 14
+</summary>
+
+### 1. Create a function that takes the customer's first and last name and returns the total amount of payments this customer has made.
+### 2. Swap the position and the salary of the 2 employees Miller McQuater and Christalle McKenny using transactions.(emp_id of Miller and Christalle are 2 and 3)
+### 3. Create a stored procedure called emp_swap that takes 2 params emp1 and emp2 and swaps their position and salary
+
+</details>
