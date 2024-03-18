@@ -1,4 +1,3 @@
--- Task 1:
 -- Create user
 CREATE USER mia
 WITH PASSWORD 'mia123';
