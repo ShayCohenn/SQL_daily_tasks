@@ -898,3 +898,29 @@ emp_id 8
 ### 3. Create a stored procedure called emp_swap that takes 2 params emp1 and emp2 and swaps their position and salary
 
 </details>
+
+<details>
+<summary>
+
+## Day 15
+</summary>
+
+### 1.In this challenge you need to create a user, a role and add privileges.
+
+Your tasks are the following:
+
+
+
+Create the user mia with password 'mia123'
+
+Create  the role analyst_emp;
+
+Grant SELECT on all tables in the public schema to that role.
+
+Grant INSERT and UPDATE on the employees table to that role.
+
+Add the permission to create databases to that role.
+
+Assign that role to mia and test the privileges with that user.
+
+</details>
